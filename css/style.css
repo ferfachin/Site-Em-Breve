@@ -64,8 +64,9 @@ nav {
 /* Start text left */
 
 .text-left {
+    background-color: aqua;
     width: 50%;
-    height: 80%;
+    height: 90%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -92,15 +93,16 @@ nav {
 }
 
 .rede ul {
-    align-items: left;
+
     margin: 10vh;
 
 }
 
 .rede li {
     display: inline-block;
+    align-items: left;
     list-style: none;
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 /* End Text Left */
@@ -134,6 +136,7 @@ nav {
 .text-0800 {
     display: flex;
 
+
 }
 
 .text-0800 img {
@@ -153,4 +156,20 @@ nav {
 .encontrar h3 {
     font-size: 18px;
     font-weight: 300;
+}
+
+@media screen (min-width 300px) {
+    .section {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .text-left {
+        width: 50%;
+    }
+
+    .em-breve {
+        width: 50%;
+    }
 }
