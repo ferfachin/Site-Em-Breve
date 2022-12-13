@@ -58,11 +58,9 @@ section {
 
 }
 
-/* Start text left */
-
-.text-left {
+/* BOX 1 START HERE!!*/
+.box1 {
     width: 50%;
-    height: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -87,15 +85,13 @@ section {
 }
 
 .rede ul {
-    align-items: left;
-    margin: 10vh;
-
+    padding: 4rem;
 }
 
 .rede li {
-    display: inline-block;
+    margin-left: 15px;
+    display: inline;
     list-style: none;
-    margin-right: 60px;
 }
 
 /* BOX 2 START HERE!!*/
@@ -150,6 +146,9 @@ section {
         width: 100%;
     }
 
+    .box2 {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:1064px) and (min-width:200px) {
@@ -175,20 +174,4 @@ section {
         margin-top: 15rem;
     }
 
-}
-
-@media screen (min-width 300px) {
-    .section {
-        width: 100%;
-        margin: auto;
-
-    }
-
-    .text-left {
-        width: 50%;
-    }
-
-    .em-breve {
-        width: 50%;
-    }
 }
